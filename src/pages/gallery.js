@@ -1,22 +1,18 @@
 import Header from '../comp/header';
+import Content from '../comp/content';
 
 const Gallery = () => {
   return (
 <div>
     <Header></Header>
-    <div id="pageintro" className="hoc clear">
-      <article>
-        <h3 className="heading">  Gallery page </h3>
-        <p>
-        Gallery page
-        </p>
+    < Content  pageName="Gallery Page" txt="the Gallery is here"/>
         <footer>
           <a className="btn" href="#">
             Turpis egestas
           </a>
         </footer>
-      </article>
-    </div>
+    
+    
 
 </div>
   );

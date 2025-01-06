@@ -1,24 +1,13 @@
 import Header from '../comp/header';
+import Content from '../comp/content';
 
 const Linktext = () => {
   return (
     <>
     
-<Header></Header>
+  <Header></Header>
 
-    <div id="pageintro" className="hoc clear">
-      <article>
-        <h3 className="heading">  Link Text page </h3>
-        <p>
-        Texxt here 
-        </p>
-        <footer>
-          <a className="btn" href="#">
-            Turpis egestas
-          </a>
-        </footer>
-      </article>
-    </div>
+  < Content  pageName="Link Text Page" txt="the linktext is here"/>
     
     </>
   );
