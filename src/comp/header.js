@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import { Link, NavLink } from "react-router-dom";
+
 const Header = () => {
   return (
     <div>
@@ -9,9 +12,9 @@ const Header = () => {
           <i className="fa fa-envelope-o" /> info@domain.com
         </li>
         <li>
-          <a href="index.html">
+          <Link to="/home">
             <i className="fa fa-lg fa-home" />
-          </a>
+          </Link>
         </li>
         <li>
           <a href="#" title="Help Centre">
@@ -39,25 +42,15 @@ const Header = () => {
         </div>
         <div>
           <h1 id="logo">
-            <a href="index.html">Nalpure</a>
+            <Link to="/home">Nalpure</Link>
           </h1>
         </div>
-        <div>
-          <form className="clear" method="post" action="#">
-            <fieldset>
-              <legend>Search:</legend>
-              <input type="search" defaultValue="" placeholder="Search Here…" />
-              <button className="fa fa-search" type="submit" title="Search">
-                <em>Search</em>
-              </button>
-            </fieldset>
-          </form>
-        </div>
+        
       </section>
       <nav id="mainav">
         <ul className="clear">
-          <li className="active">
-            <a href="index.html">Home</a>
+          <li>
+            <a href="/home">Home</a>
           </li>
           <li>
             <a className="drop" href="#">
@@ -65,7 +58,7 @@ const Header = () => {
             </a>
             <ul>
               <li>
-                <a href="pages/gallery.html">Gallery</a>
+                <NavLink to="/gallery">Gallery</NavLink>
               </li>
               <li>
                 <a href="pages/full-width.html">Full Width</a>
@@ -120,7 +113,7 @@ const Header = () => {
             <a href="#">Link Text</a>
           </li>
           <li>
-            <a href="/linktext">Long Link Text</a>
+            <NavLink to="/linktext">Long Link Text</NavLink>
           </li>
         </ul>
       </nav>

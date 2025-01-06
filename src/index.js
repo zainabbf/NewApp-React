@@ -7,12 +7,18 @@ import {
 } from "react-router-dom";
 import Home from './pages/home';
 import Gallery from './pages/gallery';
-import Text from './pages/linktext'
+import Text from './pages/linktext';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <Home />,
+    errorElement: <h1 style={{ textAlign: 'center' }}>The page is not found 404 </h1>,
+  },
+  
+  {
+    path: "/home",
     element: <Home />,
     errorElement: <h1 style={{ textAlign: 'center' }}>The page is not found 404 </h1>,
   },

@@ -455,3 +455,8 @@ table a, #comments a{background-color:inherit;}
 	#header section, #header section > div{display:block; width:100%;}
 	#header section > div{width:100%; margin-bottom:30px; text-align:center;}
 }
+
+.active {
+  background-color: #00ACEE;
+  color: #000 !important;
+}
