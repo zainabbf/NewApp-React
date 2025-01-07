@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Link, NavLink } from "react-router-dom";
-
+import "./headline.css";
 const Header = () => {
   return (
     <div>

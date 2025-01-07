@@ -6,11 +6,7 @@ const Gallery = () => {
 <div>
     <Header></Header>
     < Content  pageName="Gallery Page" txt="the Gallery is here"/>
-        <footer>
-          <a className="btn" href="#">
-            Turpis egestas
-          </a>
-        </footer>
+      
     
     
 
