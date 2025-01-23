@@ -5,35 +5,7 @@ const Header = () => {
   return (
     <div>
       <div>
-<div className="wrapper row0">
-    <div id="topbar" className="hoc clear">
-      <ul className="nospace">
-        <li>
-          <i className="fa fa-envelope-o" /> info@domain.com
-        </li>
-        <li>
-          <Link to="/home">
-            <i className="fa fa-lg fa-home" />
-          </Link>
-        </li>
-        <li>
-          <a href="#" title="Help Centre">
-            <i className="fa fa-life-bouy" />
-          </a>
-        </li>
-        <li>
-          <a href="#" title="Login">
-            <i className="fa fa-lg fa-sign-in" />
-          </a>
-        </li>
-        <li>
-          <a href="#" title="Sign Up">
-            <i className="fa fa-lg fa-edit" />
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
+
   <div className="wrapper row1">
     <header id="header" className="hoc clear">
       <section>
